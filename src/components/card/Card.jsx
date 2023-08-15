@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import s from "./Card.module.css";
 const Card = ({ data }) => {
   const { name, image, species, status } = data;
@@ -13,3 +14,12 @@ const Card = ({ data }) => {
 };
 
 export default Card;
+
+Card.propTypes = {
+  data: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+    species: PropTypes.string.isRequired,
+    status: PropTypes.string.isRequired,
+  }),
+};

@@ -1,0 +1,16 @@
+.container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.container button,
+.container p {
+  font-size: 1.5rem;
+  background-color: aqua;
+  border: 2px solid #9fc476;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+  font-family: "Press Start 2P", cursive;
+}
