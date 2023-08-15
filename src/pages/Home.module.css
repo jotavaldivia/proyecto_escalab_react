@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.loading {
+  color: green;
+  font-weight: 900;
+}
