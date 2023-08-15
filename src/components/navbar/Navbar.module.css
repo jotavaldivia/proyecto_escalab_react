@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 40%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: #01afc6;
+  color: white;
+  border: 5px solid #9fc476;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    max-width: 100%;
+  }
+}
