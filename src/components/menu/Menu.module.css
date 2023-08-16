@@ -1,0 +1,27 @@
+.ul {
+  display: flex;
+  list-style: none;
+  border: 2px solid white;
+  border-radius: 8px;
+}
+
+.li {
+  color: aliceblue;
+  padding: 12px;
+}
+
+.li:hover {
+  background-color: #f1f1f1;
+  color: black;
+  cursor: pointer;
+}
+
+.li__active {
+  background-color: #f1f1f1;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
