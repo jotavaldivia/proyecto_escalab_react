@@ -28,7 +28,5 @@ export default defineConfig({
     debug: true, // me permite habilitar un ispector de build para tener el el flujo de ejecuciones por la terminal
     prerenderPaths: ["/"], // pre-carga en memoria de rutas pesadas para que el usuario no tenga que esperar a que se carguen
     modulePreload: true, // me permite precargar los modulos de javascript para que el usuario no tenga que esperar a que se carguen
-    watch: true, // me permite observar los cambios en el codigo para que se genere un nuevo build
-    outPutDir: "build", // carpeta donde se genera el build
   },
 });
