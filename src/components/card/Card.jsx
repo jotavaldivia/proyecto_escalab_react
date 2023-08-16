@@ -1,14 +1,21 @@
 import PropTypes from "prop-types";
 import s from "./Card.module.css";
 const Card = ({ data }) => {
-  const { name, image, species, status } = data;
   //console.log(data);
   return (
     <div className={s.card}>
-      <img src={image} alt="Rick and Morty" />
-      <h2>{name}</h2>
-      <p>{species}</p>
-      <p>{status}</p>
+      {data.image === undefined ? (
+        <img
+          src="https://rickandmortyapi.com/api/character/avatar/19.jpeg"
+          alt="Rick and Morty"
+        />
+      ) : (
+        <img src={data.image} alt="Rick and Morty" />
+      )}
+
+      <h2>{data.name}</h2>
+      <p>{data.species}</p>
+      <p>{data.status}</p>
     </div>
   );
 };

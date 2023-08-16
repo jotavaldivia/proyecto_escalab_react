@@ -14,3 +14,11 @@
   margin-top: 2rem;
   color: white;
 }
+
+.containerHead {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
