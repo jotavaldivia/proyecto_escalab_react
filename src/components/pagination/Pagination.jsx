@@ -2,8 +2,7 @@ import PropTypes from "prop-types";
 import s from "./Pagination.module.css";
 const Pagination = ({ options }) => {
   const { page, totalPages, handleNextPage, handlePreviousPage } = options;
-  console.log(page, totalPages);
-
+  // console.log(options);
   return (
     <div className={s.container}>
       <button onClick={() => handlePreviousPage()} disabled={page === 1}>

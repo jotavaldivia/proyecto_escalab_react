@@ -9,3 +9,8 @@
   color: green;
   font-weight: 900;
 }
+
+.noResults {
+  margin-top: 2rem;
+  color: white;
+}
